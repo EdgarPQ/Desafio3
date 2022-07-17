@@ -1,0 +1,122 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  
+}
+
+main {
+  height:auto;
+  
+}
+
+header {
+  background-color: black;
+  height: 73px;
+  text-align: center;
+  overflow: hidden;
+}
+
+header h1 {
+  font-size: 53px;
+  color: white;
+  font-weight: 100;
+  margin-top: 11.5px;
+}
+
+#slider {
+  background-image: url(../imgs/bg-header.jpg);
+  height: 727px;
+  background-size: cover;
+}
+
+.description {
+  background-color: black;
+  padding: 45px 150px;
+  align-items: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.description p {
+  float: left;
+  color: white;
+  width: 50%;
+  border: 2px green dotted;
+  margin-top: 31px;
+}
+
+.description_imagen {
+  float: right;
+  width: 399px;
+  height: 237px;
+}
+
+.caracteristicas {
+  background-color: #1e1a13;
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 74px;
+}
+
+.caracteristicas h2 {
+  font-size: 40px;
+}
+
+.caracteristicas__iconos {
+  margin: 50px 300px 0px 300px;
+}
+
+.caracteristicas__iconos div {
+  display: inline-block;
+  width: 30%;
+}
+
+.caracteristicas__iconos div:hover {
+  color: green;
+}
+
+.icono {
+  font-size: 37px;
+  margin-bottom: 16.5px;
+}
+
+.imagenesx3 {
+  background-color: black;
+  padding: 73px 150px;
+  text-align: center;
+}
+
+.imagenesx3 img {
+  width: 316px;
+  height: 202px;
+}
+
+.description_imagen:hover,
+.imagenesx3 img:hover {
+  transform: scale(1.25);
+}
+
+.imagenesx3 img:nth-child(2) {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+footer {
+  background-color: #1e1a13;
+  color: white;
+  padding: 39px 299px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: green;
+}
